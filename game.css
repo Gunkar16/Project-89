@@ -1,0 +1,105 @@
+body
+{
+	background-image: url("pexels-photo-1318579.jpeg");
+	background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h1{
+	color:white;
+	font-family: 'Roboto Mono', monospace;
+
+}
+#title{
+	color:white;
+	font-size: 25px;
+	font-family: 'Redressed', cursive;
+}
+img{
+	width: 150px;
+	height: 125px;
+	border-bottom: 10px solid;
+	border-image-source: linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d);
+	border-image-slice: 1;
+	margin: 100px;
+}
+h3{
+
+}
+input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+input {
+	border-image-source: linear-gradient(120deg, #02c4fe,#0d32fd,#e80c7d);
+	border-image-slice: 1;
+	border-width: 10px;
+	background-color: #eee;
+}
+#buttonC{
+	background-image: linear-gradient(120deg, #02c4fe,#0d32fd,#e80c7d);
+}
+
+
+.btn-grad {background-image:linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d)}
+.btn-grad {
+   margin: 50px;
+   width: 150px;
+   height:50px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 300% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 25%;
+ }
+
+ .btn-grad:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+.userLabel{
+	font-family: 'Space Mono', monospace;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	margin-right: 20px;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to right, #ff7214 44%, #970202 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
